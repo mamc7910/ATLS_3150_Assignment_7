@@ -1,0 +1,23 @@
+h1, h2 {
+    color: blue;
+  }
+  p {
+    color: gray;
+  }
+  ul {
+    border: 2px solid gray;
+  }
+  ol {
+    border: 2px solid blue;
+  }
+  ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+  h1, strong {
+    color: purple; /* This cancels out our style change in h1, h2 */
+  }
+  
+  em {
+    color: gray;
+  }
